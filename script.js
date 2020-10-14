@@ -2,7 +2,7 @@
 // create string variables for all possible characters to be used.
   let upperCaseString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   let lowerCaseString = "abcdefghijklmnopqrstuvwzyx"
-  let specialCharactersString = "!@#$?.&"
+  let specialCharactersString = "!@#$?.,&*()[]{}%^+="
   let numbersString = "0123456789"
 
   //create function for generating a password.
@@ -27,14 +27,14 @@ function generatePassword() {
        numbers = confirm("Would you like to use numbers?")
   }
   
-  //run loop allowing password to only be between 8 and 128 characters.
+  //run loop allowing password to only be a number between 8 and 128 characters. 
   let passwordLength=parseInt(prompt("How many characters would you like your password to be? (Must be between 8 and 128 characters)."));
-  while(passwordLength < 8 || passwordLength > 128) {
+  while(isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
       alert("Please choose a number between 8 and 128 characters");
       passwordLength=parseInt(prompt("How many characters would you like your password to be? (Must be between 8 and 128 characters)."));
   } 
 
-  //conditonals logging if character types are confirmed, to store that type of character.
+  //conditonals logging if character types are confirmed/true, then store that type of character for generating.
   if (upperCase) {
     charset += upperCaseString
     
