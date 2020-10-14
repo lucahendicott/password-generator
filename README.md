@@ -16,6 +16,10 @@ I then created a series of conditionals, logging if any or all of the boolean va
 Finally, we have a generate button assignment code using a query selector, assigning the function to the button in the HTML. We have a write password function to generate the password and added an event listener to the generate button.
 
 Here are some screenshots of the deployed page:
+![uppercase](https://user-images.githubusercontent.com/70814349/96040110-9ebe2000-0e1e-11eb-8aa6-13c33d8896c8.png)
+![how many characters](https://user-images.githubusercontent.com/70814349/96040112-9fef4d00-0e1e-11eb-801c-aedae75d4323.png)
+![invalid input](https://user-images.githubusercontent.com/70814349/96040113-9fef4d00-0e1e-11eb-9f23-b7ee5bf2c0e7.png)
+![generated password](https://user-images.githubusercontent.com/70814349/96040114-9fef4d00-0e1e-11eb-85bc-6bfb931e1822.png)
 
 ## Getting Started
 
