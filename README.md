@@ -1,6 +1,6 @@
 # password-generator
 
-This web page generates a password between 8 and 128 characters for a user based off of their preferences for incorporating uppercase letters, lowercase letters, numbers and/or special characters.
+This web application generates a password between 8 and 128 characters for a user based off of their preferences for incorporating uppercase letters, lowercase letters, numbers and/or special characters.
 
 ## How it Works
 
